@@ -18,9 +18,9 @@ rectangle = Rectangle(4, 5)
 print(rectangle.area())  # 20
 print(rectangle.perimeter())  # 18
 
-rectangle2 = Rectangle.from_diagonal(5)
-print(rectangle2.area())  # 12.5
-print(rectangle2.perimeter())  # 10
+rectangle2 = Rectangle.from_diagonal(5, 2)
+print(rectangle2.area())  # 10.0128
+print(rectangle2.perimeter())  # 13.42
 
 print(Rectangle.is_square(4, 4))  # True
 print(Rectangle.is_square(4, 5))  # False
