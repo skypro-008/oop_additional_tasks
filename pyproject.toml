@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "oop-additional-tasks"
+version = "0.1.0"
+description = ""
+authors = ["George Astakhov <goha1115@mail.ru>"]
+readme = "README.md"
+packages = [{include = "oop_additional_tasks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
