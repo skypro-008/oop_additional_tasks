@@ -8,6 +8,7 @@ packages = [{include = "oop_additional_tasks"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+accessify = "^0.3.1"
 
 
 [build-system]
