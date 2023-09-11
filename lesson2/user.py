@@ -14,7 +14,10 @@
 
 
 class User:
-    pass
+    def __init__(self, name, password):
+        self.name = name
+        self.password = password
+
 
 
 user1 = User("Alice", "qwerty")
