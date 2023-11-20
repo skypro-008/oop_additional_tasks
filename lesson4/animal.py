@@ -18,6 +18,7 @@ class Aminal:
     pass
 
 
+# код для проверки 
 animal = Animal("Animal")
 animal.speak()  # ?
 

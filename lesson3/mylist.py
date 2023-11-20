@@ -14,6 +14,7 @@ class MyList:
     pass
 
 
+# код для проверки 
 my_list1 = MyList([1, 2, 3])
 print(repr(my_list1))  # MyList([1, 2, 3])
 print(str(my_list1))  # [1, 2, 3]

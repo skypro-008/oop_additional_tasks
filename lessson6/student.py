@@ -13,6 +13,7 @@ class Student:
     pass
 
 
+# код для проверки 
 student1 = Student()
 student1.name = "John"
 student1.age = 20

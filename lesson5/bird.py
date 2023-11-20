@@ -17,6 +17,7 @@ class Bird:
     pass
 
 
+# код для проверки 
 bird = Bird()
 bird.fly()  # Flying
 

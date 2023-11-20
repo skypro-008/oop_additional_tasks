@@ -15,6 +15,7 @@ class BankAccount:
     pass
 
 
+# код для проверки 
 account = BankAccount(1000)
 print(account.balance)  # 1000
 

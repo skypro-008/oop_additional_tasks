@@ -32,5 +32,6 @@ album_1 = Album(...)
 album_2 = ...
 
 
+# код для проверки 
 print(album_1.artist, album_1.title, len(album_1.tracks), "треков")  # Queen Killer Queen 3 треков
 print(album_2.artist, album_2.title, len(album_2.tracks), "треков")  # Metallica Black Album 3 треков

@@ -13,6 +13,7 @@ class Fraction:
     pass
 
 
+# код для проверки 
 fraction1 = Fraction(1, 2)
 print(repr(fraction1))  # Fraction(1, 2)
 print(str(fraction1))  # 1/2

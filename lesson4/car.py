@@ -17,6 +17,7 @@ class Car:
     pass
 
 
+# код для проверки 
 car = Car("Tesla", "Model S", 2022)
 print(car.get_make())  # Tesla
 print(car.get_model())  # Model S

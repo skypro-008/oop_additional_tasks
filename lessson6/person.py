@@ -17,6 +17,7 @@ class Person:
     pass
 
 
+# код для проверки 
 person = Person()
 person.name = "John"
 person.age = 30

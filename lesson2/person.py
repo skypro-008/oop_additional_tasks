@@ -14,6 +14,7 @@ class Person:
     pass
 
 
+# код для проверки 
 person1 = Person("John", 28)
 person1.display()  # John is 28 years old
 

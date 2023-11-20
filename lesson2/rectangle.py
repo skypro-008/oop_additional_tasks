@@ -14,6 +14,7 @@ class Rectangle:
     pass
 
 
+# код для проверки 
 rectangle = Rectangle(4, 5)
 print(rectangle.area())  # 20
 print(rectangle.perimeter())  # 18

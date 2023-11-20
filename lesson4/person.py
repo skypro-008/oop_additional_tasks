@@ -16,6 +16,7 @@ class Person:
     pass
 
 
+# код для проверки 
 person = Person("Иван", 25)
 print(person.get_name())  # Иван
 print(person.get_age())  # 25

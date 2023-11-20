@@ -14,4 +14,6 @@ class Timer:
 with Timer() as timer:
     # блок кода
 
+
+# код для проверки 
 print("Execution time:", timer.elapsed_time)

@@ -22,6 +22,8 @@ bottle_1 = Bottle("Красная", 0.7)
 bottle_2 = ...
 bottle_3 = ...
 
+
+# код для проверки 
 print(bottle_1.color, bottle_1.volume)  # Красная 0.7
 print(bottle_2.color, bottle_2.volume)  # Белая 0.3
 print(bottle_3.color, bottle_3.volume)  # Черная 1.0

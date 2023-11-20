@@ -12,6 +12,7 @@ class MyList2:
     pass
 
 
+# код для проверки 
 my_list = MyList2([1, 2, 3])
 for i in my_list:
     print(i)  # 1 2 3

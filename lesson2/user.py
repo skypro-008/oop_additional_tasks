@@ -17,6 +17,7 @@ class User:
     pass
 
 
+# код для проверки 
 user1 = User("Alice", "qwerty")
 print(user1.name)  # Alice
 print(user1.password)  # qwerty

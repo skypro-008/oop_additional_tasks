@@ -27,6 +27,7 @@ class Number:
         ...
 
 
+# код для проверки 
 n = Number(7)
 print(n.get())  # 7
 n.add(3)
