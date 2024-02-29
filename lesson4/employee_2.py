@@ -1,5 +1,5 @@
 """
-Для класса Employee, опишите магический метод сложения таким образом, чтобы результатом сложения
+Для класса Employee и Client, опишите магический метод сложения таким образом, чтобы результатом сложения
 было число, а прибавлять можно было только числа или другие объекты дочерних классов Employee
 
 """
@@ -29,7 +29,7 @@ users = [Employee(50000), Client(100000), Developer(50000), Manager(50000)]
 
 total_salary = 0
 for user in users:
-    total_salary = total_salary + user
+    total_salary = user + total_salary
 
 print(total_salary)
 # Вывод: 150000
