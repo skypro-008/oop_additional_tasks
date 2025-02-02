@@ -1,24 +1,21 @@
 """
 Создай класс Student (студент) с полями
-
 - Имя (name) - строка
 - Курс (course) - целое число
-
 Создай два экземпляра
-
-- Алиса , 3 [курс]
-- Маргарита , 2 [курс]
+- Алиса, 3 [курс]
+- Маргарита, 2 [курс]
 """
 
 
-class ...:
+class Student:
 
-    def __init__(...):
-        ...
+    def __init__(self, name, course):
+        self.name = name
+        self.course = course
 
-
-student_1 = ...
-student_2 = ...
+student_1 = Student('Алиса', 3)
+student_2 = Student('Маргарита', 2)
 
 
 # код для проверки 
