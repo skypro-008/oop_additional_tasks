@@ -29,6 +29,9 @@ class Car:
 
 
 class CarSlots:
+    brand: str
+    model: str
+    year: int
     __slots__ = ("brand", "model", "year")
 
     def __init__(self, brand: str, model: str, year: int) -> None:
