@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import pytest
 
 
@@ -6,7 +8,7 @@ def test_deadline_task_init(task_deadline_1):
     assert task_deadline_1.description == "Купить учебник по программированию"
     assert task_deadline_1.deadline == "30.07.2025"
     assert task_deadline_1.status == "Ожидает старта"
-    assert task_deadline_1.created_at == "22.07.2025"
+    assert task_deadline_1.created_at == datetime.now().strftime("%d.%m.%Y")
     assert task_deadline_1.run_time == 60
 
 

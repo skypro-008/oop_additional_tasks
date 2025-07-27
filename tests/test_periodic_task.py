@@ -1,3 +1,5 @@
+from datetime import datetime
+
 import pytest
 
 
@@ -7,7 +9,7 @@ def test_periodic_task_init(task_periodic_1):
     assert task_periodic_1.start_date == "23.07.2025"
     assert task_periodic_1.end_date == "23.07.2025"
     assert task_periodic_1.status == "Ожидает старта"
-    assert task_periodic_1.created_at == "22.07.2025"
+    assert task_periodic_1.created_at == datetime.now().strftime("%d.%m.%Y")
     assert task_periodic_1.run_time == 60
     assert task_periodic_1.frequency == "Ежедневная"
 

@@ -16,6 +16,10 @@ class Task(BaseTask, PrintMixin):
         self.description = description
         self.status = status
         self.__created_at = created_at if created_at else datetime.today().strftime("%d.%m.%Y")
+        if run_time >= 0:
+            self.run_time = run_time
+        else:
+            raise ValueError("Задачу с отрицательным временем выполнения создать нельзя")
         self.run_time = run_time
         super().__init__()
 
@@ -28,8 +32,8 @@ class Task(BaseTask, PrintMixin):
         raise TypeError
 
     @classmethod
-    def new_task(cls, name, description, status="Ожидает старта", created_at=None):
-        return cls(name, description, status, created_at)
+    def new_task(cls, name, description, status="Ожидает старта", created_at=None, run_time=0):
+        return cls(name, description, status, created_at, run_time)
 
     @property
     def created_at(self):
