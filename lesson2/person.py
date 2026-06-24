@@ -19,7 +19,7 @@ person1 = Person("John", 28)
 person1.display()  # John is 28 years old
 
 person2 = Person.from_birth_year("Mike", 1995)
-person2.display()  # Mike is 26 years old
+person2.display()  # Mike is 31 years old
 
 print(Person.is_adult(20))  # True
 print(Person.is_adult(15))  # False
